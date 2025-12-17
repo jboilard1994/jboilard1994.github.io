@@ -1,0 +1,19 @@
+title: Jonathan Boilard
+description: Machine Learning & Data Science Portfolio
+baseurl: ""        
+url: "https://jboilard1994.github.io"
+
+markdown: kramdown
+theme: minima
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
