@@ -11,13 +11,7 @@ Welcome to my Machine Learning & Data Science Portfolio.
 
 Here are some of the projects I've worked on:
 
-<ul>
-  {% for project in site.projects %}
-    <li>
-      <h3>
-        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-      </h3>
-      <p>{{ project.description }}</p>
-    </li>
-  {% endfor %}
-</ul>
+- [Numerai](/projects/numerai/) - Financial modeling and stock market prediction on encrypted data.
+- [Packboost](/projects/packboost/) - Optimization algorithms for packaging efficiency.
+- [HVAC Machine Learning](/projects/hvac-machine-learning/) - Predictive maintenance and energy optimization for HVAC systems.
+- [Machine Vision](/projects/machine-vision/) - Computer vision applications for object detection and analysis.
