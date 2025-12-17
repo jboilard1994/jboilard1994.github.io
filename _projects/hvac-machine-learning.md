@@ -12,3 +12,5 @@ Reduce energy consumption and predict failures.
 
 ## Data
 Describe the sensor data used (temperature, pressure, etc.).
+
+![Temperature Telemetry](/media/hvac/temperature_telemetry.png)
