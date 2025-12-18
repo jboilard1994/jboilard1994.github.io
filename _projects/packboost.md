@@ -5,10 +5,10 @@ description: Optimization algorithms for packaging efficiency.
 
 # Packboost
 
-This is a placeholder for the Packboost project.
+[ Description of packboost ]
 
 ## Overview
-Describe the packaging optimization challenge.
+[Quick description and visualization of it's internals]
 
-## Solution
-Explain the algorithms or heuristics used.
+## Results
+[Present the numerai challenge, and compare performance of target with benchmark]
