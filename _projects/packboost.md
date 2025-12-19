@@ -19,7 +19,7 @@ Packboost is a domain-specific gradient boosting algorithm designed to address c
 
 </div>
 
----
+<hr style="margin: 3rem 0;">
 
 ## Design philosophy
 
@@ -29,9 +29,7 @@ The public Data science competition I participate in is related to investing in 
 2. The data is time-stratified, where an interaction can be highly useful in an era but not in others. To avoid learning such interactions, Packboost incorporates era-aware split selection methods. 
 3. To be competitive, models need to be highly optimized. Part of this optimization involves hyperparameter selection and feature selection. However, the dataset is quite large (Nearly 100 million rows, >2000 feature columns). PackBoost contains a novel training method allowing to train a tree atr all depths simultaneously using pseudo-optimial splits based on the previous round's splits.
 
-
----
-
+<hr style="margin: 3rem 0;">
 
 ### Ensemble feature synchronization
 
@@ -49,7 +47,7 @@ The key of this design element is that there is no repetition of features betwee
 
 </div>
 
----
+<hr style="margin: 3rem 0;">
 
 ### Era-aware splitting criterion
 
@@ -67,7 +65,7 @@ We use a splitting criterion based on [insert reference] for determining the bes
 
 </div>
 
----
+<hr style="margin: 3rem 0;">
 
 ### Sharing of tree paths allowing massive parallization  
 
@@ -85,7 +83,7 @@ Traditional tree growth methods evaluates splits recursively at each depth level
 
 </div>
 
----
+<hr style="margin: 3rem 0;">
 
 ### Results
 
