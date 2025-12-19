@@ -15,7 +15,9 @@ Packboost is a domain-specific gradient boosting algorithm designed to address c
 
 </div>
 
+<div>
 <small style="opacity: 0.7;">*Visualization of a gradient boosting decision tree for a regression problem, showing how the model partitions the feature space and makes predictions, and how the outputs of multiple weak learners are aggregated together.*</small>
+</div>
 
 </div>
 
@@ -43,7 +45,9 @@ The key of this design element is that there is no repetition of features betwee
 
 </div>
 
+<div>
 <small style="opacity: 0.7;">Pre-sampled feature schedule for each fold and each depth</small>
+</div>
 
 </div>
 
@@ -61,7 +65,9 @@ We use a splitting criterion based on [insert reference] for determining the bes
 
 </div>
 
+<div>
 <small style="opacity: 0.7;">Example of splitting data at a given node. Using traditional splitting criterions, a single split is evaluated using a single global score. Using an era-aware implementation, a score for each era is obtained, leading to different splits depending on how the scores are aggregated</small>
+</div>
 
 </div>
 
@@ -79,7 +85,9 @@ Traditional tree growth methods evaluates splits recursively at each depth level
 
 </div>
 
+<div>
 <small style="opacity: 0.7;">Example of splitting data at a given node. Using traditional splitting criterions, a single split is evaluated using a single global score. Using an era-aware implementation, a score for each era is obtained, leading to different splits depending on how the scores are aggregated</small>
+</div>
 
 </div>
 
