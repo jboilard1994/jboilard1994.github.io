@@ -19,6 +19,8 @@ Packboost is a domain-specific gradient boosting algorithm designed to address c
 
 </div>
 
+---
+
 ## Design philosophy
 
 The public Data science competition I participate in is related to investing in stock markets. It was designed with these characteristics in mind :
@@ -43,9 +45,11 @@ The key of this design element is that there is no repetition of features betwee
 
 </div>
 
-<small style="opacity: 0.7;">*Pre-sampled feature schedule for each fold and each depth*</small>
+<small style="opacity: 0.7;">Pre-sampled feature schedule for each fold and each depth</small>
 
 </div>
+
+---
 
 ### Era-aware splitting criterion
 
@@ -59,9 +63,11 @@ We use a splitting criterion based on [insert reference] for determining the bes
 
 </div>
 
-<small style="opacity: 0.7;">*Example of splitting data at a given node. Using traditional splitting criterions, a single split is evaluated using a single global score. Using an era-aware implementation, a score for each era is obtained, leading to different splits depending on how the scores are aggregated*</small>
+<small style="opacity: 0.7;">Example of splitting data at a given node. Using traditional splitting criterions, a single split is evaluated using a single global score. Using an era-aware implementation, a score for each era is obtained, leading to different splits depending on how the scores are aggregated</small>
 
 </div>
+
+---
 
 ### Sharing of tree paths allowing massive parallization  
 
@@ -75,10 +81,11 @@ Traditional tree growth methods evaluates splits recursively at each depth level
 
 </div>
 
-<small style="opacity: 0.7;">*Example of splitting data at a given node. Using traditional splitting criterions, a single split is evaluated using a single global score. Using an era-aware implementation, a score for each era is obtained, leading to different splits depending on how the scores are aggregated*</small>
+<small style="opacity: 0.7;">Example of splitting data at a given node. Using traditional splitting criterions, a single split is evaluated using a single global score. Using an era-aware implementation, a score for each era is obtained, leading to different splits depending on how the scores are aggregated</small>
 
 </div>
 
+---
 
 ### Results
 
