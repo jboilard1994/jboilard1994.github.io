@@ -1,8 +1,3 @@
----
-title: Custom Gradient Boosting
-description: A domain-specific gradient boosting algorithm for constraints beyond standard libraries.
----
-
 # Custom Gradient Boosting with PackBoost
 
 PackBoost is a domain-specific gradient boosting algorithm designed to handle constraints not supported by standard libraries.

@@ -1,8 +1,3 @@
----
-title: Machine Vision
-description: Industrial computer vision for object detection and inspection.
----
-
 # Computer Vision – Industrial Quality Control
 
 I worked on a machine vision system for detecting missing welds on steel joists in an industrial production line.
