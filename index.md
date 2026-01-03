@@ -3,7 +3,7 @@ layout: home
 ---
 # Summary
 
-Machine Learning Engineer specializing in custom algorithms and production-grade computer vision systems.
+Machine Learning Engineer with expertise across industrial and financial domains—building custom gradient boosting algorithms for market prediction and deploying computer vision systems for automated quality control.
 
 ## Featured Projects
 
