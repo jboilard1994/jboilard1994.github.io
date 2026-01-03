@@ -41,11 +41,13 @@ While exact performance metrics cannot be disclosed for legal reasons, the deplo
 
 ---
 
-## Deployment Architecture
+## On-Premise Architecture
 The inference system is deployed **on-premise** to ensure reliability and avoid disruptions caused by unstable internet connectivity, allowing data to be processed directly at the edge.
 
 ![On-Premise Deployment](/media/machine_vision/on_premise.jpeg)
 
+
+## Cloud deployment pipeline
 For long-term data storage, model training, and MLOps workflows, a cloud-based pipeline is used.
 
 ![Cloud Pipeline](/media/machine_vision/cloud_pipeline.png)
