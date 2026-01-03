@@ -13,6 +13,7 @@ A domain-specific gradient boosting implementation designed for financial market
 - **Synchronized ensemble feature sampling** to enforce orthogonality between weak learners
 - **Massively parallel training** through round-forward sample path reuse
 
+---
 
 ### [Industrial Machine Vision System](https://jboilard1994.github.io/projects/machine-vision/)
 End-to-end computer vision pipeline for automated quality control in steel manufacturing:

@@ -18,7 +18,7 @@ PackBoost is a domain-specific gradient boosting algorithm designed to handle co
   </div>
 </div>
 
-<hr style="margin: 3rem 0;">
+---
 
 ## Design Choices
 
@@ -33,7 +33,7 @@ PackBoost was developed for a public data science competition focused on financi
    - Enables massive parallelization  
    - Preserves orthogonality across boosting rounds
 
-<hr style="margin: 3rem 0;">
+---
 
 ## Ensemble Feature Synchronization
 
@@ -51,7 +51,7 @@ For a given round, features are never reused across folds. When
   </div>
 </div>
 
-<hr style="margin: 3rem 0;">
+---
 
 ## Era-Aware Splitting Criterion
 
@@ -68,7 +68,7 @@ Splits are selected using an era-aware criterion ([reference TBD]). Instead of a
   </div>
 </div>
 
-<hr style="margin: 3rem 0;">
+---
 
 ## Shared Tree Paths for Parallel Training
 
@@ -85,4 +85,4 @@ Instead of recursive tree growth, PackBoost reuses tree paths from previous roun
   </div>
 </div>
 
-<hr style="margin: 3rem 0;">
+
