@@ -1,53 +1,54 @@
 ---
 title: Machine Vision
-description: Computer vision applications for object detection and analysis.
+description: Industrial computer vision for object detection and inspection.
 ---
 
 # Computer Vision – Industrial Quality Control
 
-I previously worked on a machine vision system designed to detect the presence or absence of welds on steel joists in an industrial production environment.
+I worked on a machine vision system for detecting missing welds on steel joists in an industrial production line.
 
 ---
 
 ## My Role
-I was responsible for the end-to-end design and implementation of the machine vision pipeline, including data preparation, model development, evaluation under class imbalance, and deployment to on-premise infrastructure.
+End-to-end ownership of the vision pipeline, from data preparation and model development to evaluation under extreme class imbalance and on-premise deployment.
 
 ---
 
 ## Mockup Demo
-Due to industrial secrecy constraints, the demonstration below is a legally sanitized mockup of a generic machine vision system.  It closely reflects the type of solution and challenges involved in the real-world project I worked on.
+Due to confidentiality constraints, this is a sanitized mockup representative of the real system and challenges.
 
 ![System Demo](/media/machine_vision/generic_exemple.gif)
 
 ---
 
 ## Constraints
-- Detect weld presence/absence on steel joists under real production conditions with significant environmental disturbances
-- High variability in lighting conditions
-- High-speed production line
-- Highly imbalanced data distribution (probability of missing welds < 1%)
-- Very low tolerance for false negatives (missed welds), with performance required to exceed manual inspection
-- On-premise deployment required due to network reliability constraints
+- Weld presence/absence detection in harsh industrial conditions  
+- Variable lighting and environmental noise  
+- High-speed production line  
+- Extreme class imbalance (<1% missing welds)  
+- Near-zero tolerance for false negatives  
+- Mandatory on-premise deployment
 
 ---
 
 ## Tech Stack
-Vertex AI, Docker, Kubernetes, PyTorch, Python, Pandas
+PyTorch, Python, Pandas, Docker, Kubernetes, Vertex AI
 
 ---
 
 ## Results
-While exact performance metrics cannot be disclosed for legal reasons, the deployed system **surpassed manual quality control in detecting missing welds**, meeting the reliability requirements necessary to replace human inspection.
+While exact metrics cannot be disclosed, the system **outperformed manual inspection** and met reliability requirements for production use.
 
 ---
 
 ## On-Premise Architecture
-The inference system is deployed **on-premise** to ensure reliability and avoid disruptions caused by unstable internet connectivity, allowing data to be processed directly at the edge.
+Inference runs on-premise to ensure reliability and avoid network-related disruptions.
 
 ![On-Premise Deployment](/media/machine_vision/on_premise.jpeg)
 
+---
 
-## Cloud deployment pipeline
-For long-term data storage, model training, and MLOps workflows, a cloud-based pipeline is used.
+## Cloud Deployment Pipeline
+Cloud infrastructure supports data storage, model training, and MLOps workflows.
 
 ![Cloud Pipeline](/media/machine_vision/cloud_pipeline.png)
