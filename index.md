@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-## Summary
+# Summary
 
 Machine Learning Engineer specializing in custom algorithms and production-grade computer vision systems.
 
