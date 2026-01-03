@@ -1,12 +1,19 @@
 # Jonathan Boilard
 
-Welcome to my Machine Learning & Data Science Portfolio.
+Machine Learning Engineer specializing in custom algorithms and production-grade computer vision systems.
 
-## Projects
+## Featured Projects
 
-Here are some of the projects I've worked on:
+### [PackBoost – Custom Gradient Boosting Algorithm](https://jboilard1994.github.io/projects/packboost/)
+A domain-specific gradient boosting implementation designed for financial market predictions with constraints beyond standard libraries. Features include:
+- **Era-aware splitting** for improved robustness across market regimes
+- **Synchronized ensemble feature sampling** to enforce orthogonality between weak learners
+- **Massively parallel training** through round-forward sample path reuse
 
-- [Numerai](https://jboilard1994.github.io/projects/numerai/) - Financial modeling and stock market prediction on encrypted data.
-- [Packboost](https://jboilard1994.github.io/projects/packboost/) - Optimization algorithms for packaging efficiency.
-- [HVAC Machine Learning](https://jboilard1994.github.io/projects/hvac-machine-learning/) - Predictive maintenance and energy optimization for HVAC systems.
-- [Machine Vision](https://jboilard1994.github.io/projects/machine-vision/) - Computer vision applications for object detection and analysis.
+
+### [Industrial Machine Vision System](https://jboilard1994.github.io/projects/machine-vision/)
+End-to-end computer vision pipeline for automated quality control in steel manufacturing:
+- **Real-time weld detection** on high-speed production lines
+- **Surpassed manual inspection accuracy** despite <1% defect rate (extreme class imbalance)
+- **On-premise deployment** with edge processing for reliability in industrial environments
+
