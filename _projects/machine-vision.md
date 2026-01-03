@@ -19,8 +19,6 @@ Due to confidentiality constraints, this is a sanitized mockup representative of
 
 ![System Demo](/media/machine_vision/generic_exemple.gif)
 
----
-
 ## Constraints
 - Weld presence/absence detection in harsh industrial conditions  
 - Variable lighting and environmental noise  
@@ -29,24 +27,16 @@ Due to confidentiality constraints, this is a sanitized mockup representative of
 - Near-zero tolerance for false negatives  
 - Mandatory on-premise deployment
 
----
-
 ## Tech Stack
 PyTorch, Python, Pandas, Docker, Kubernetes, Vertex AI
 
----
-
 ## Results
 While exact metrics cannot be disclosed, the system **outperformed manual inspection** and met reliability requirements for production use.
-
----
 
 ## On-Premise Architecture
 Inference runs on-premise to ensure reliability and avoid network-related disruptions.
 
 ![On-Premise Deployment](/media/machine_vision/on_premise.jpeg)
-
----
 
 ## Cloud Deployment Pipeline
 Cloud infrastructure supports data storage, model training, and MLOps workflows.

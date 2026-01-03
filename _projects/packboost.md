@@ -33,8 +33,6 @@ PackBoost was developed for a public data science competition focused on financi
    - Enables massive parallelization  
    - Preserves orthogonality across boosting rounds
 
----
-
 ## Ensemble Feature Synchronization
 
 For a given round, features are never reused across folds. When  
@@ -51,8 +49,6 @@ For a given round, features are never reused across folds. When
   </div>
 </div>
 
----
-
 ## Era-Aware Splitting Criterion
 
 Splits are selected using an era-aware criterion ([reference TBD]). Instead of a single global score, splits are evaluated per era and then aggregated.
@@ -67,8 +63,6 @@ Splits are selected using an era-aware criterion ([reference TBD]). Instead of a
     </small>
   </div>
 </div>
-
----
 
 ## Shared Tree Paths for Parallel Training
 
