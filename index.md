@@ -1,3 +1,5 @@
+# Jonathan Boilard
+
 Machine Learning Engineer specializing in custom algorithms and production-grade computer vision systems.
 
 ## Featured Projects
