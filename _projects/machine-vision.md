@@ -7,12 +7,8 @@ description: Industrial computer vision for object detection and inspection.
 
 I worked on a machine vision system for detecting missing welds on steel joists in an industrial production line.
 
----
-
 ## My Role
 End-to-end ownership of the vision pipeline, from data preparation and model development to evaluation under extreme class imbalance and on-premise deployment.
-
----
 
 ## Mockup Demo
 Due to confidentiality constraints, this is a sanitized mockup representative of the real system and challenges.

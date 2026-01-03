@@ -18,8 +18,6 @@ PackBoost is a domain-specific gradient boosting algorithm designed to handle co
   </div>
 </div>
 
----
-
 ## Design Choices
 
 PackBoost was developed for a public data science competition focused on financial markets. Its design reflects this context:
