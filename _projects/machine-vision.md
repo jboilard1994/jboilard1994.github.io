@@ -1,4 +1,7 @@
-# Computer Vision – Industrial Quality Control
+---
+title: Machine Vision – Industrial Quality Control
+description: Computer vision applications for industrial quality control.
+---
 
 I worked on a machine vision system for detecting missing welds on steel joists in an industrial production line.
 
