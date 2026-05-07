@@ -3,7 +3,7 @@ layout: home
 ---
 # Summary
 
-Machine Learning Engineer with expertise across industrial and financial domains—building custom gradient boosting algorithms for market prediction and deploying computer vision systems for automated quality control.
+Full-stack data scientist building production-grade computer vision systems, with a weekend habit of chasing asymptotes through custom financial ML algorithms.
 
 ## Featured Projects
 
