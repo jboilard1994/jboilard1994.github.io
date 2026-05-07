@@ -19,21 +19,21 @@ PackBoost is a domain-specific gradient boosting algorithm designed to handle co
 
 ## Design Choices
 
-PackBoost was developed for a public data science competition focused on financial markets. Its design reflects this context:
+PackBoost was developed for a public data science competition focused on financial markets. Its design reflects the following context :
 
 1. **Synchronized ensemble feature sampling**
    - Ensemble of weak learners for robustness  
-   - Feature synchronization to encourage orthogonality
+   - Feature synchronization to encourage orthogonality of boosting rounds
 2. **Era-aware split selection**
    - Improved robustness across market regimes
 3. **Round-forward sample paths**
    - Enables massive parallelization  
-   - Preserves orthogonality across boosting rounds
+   - Mitigates overfitting by validating prior splits against new feature subsets
 
 ## Ensemble Feature Synchronization
 
 For a given round, features are never reused across folds. When  
-`split_feature_candidates << total_features`, this enforces approximate orthogonality between ensemble members.
+`split_feature_candidates << total_features`, this enforces approximate orthogonality of the step taken by the ensemble at every boosting round.
 
 <div style="text-align: center;">
   <div style="border: 2px solid #ddd; border-radius: 8px; padding: 10px; display: inline-block; overflow: hidden;">
@@ -63,7 +63,7 @@ Splits are selected using an era-aware criterion ([reference TBD]). Instead of a
 
 ## Shared Tree Paths for Parallel Training
 
-Instead of recursive tree growth, PackBoost reuses tree paths from previous rounds. This non-optimal strategy enables large-scale parallelization.
+Instead of recursively growing trees, PackBoost reuses decision paths from previous rounds. While intentionally non-optimal, this strategy enables massive parallelization and mitigates overfitting by validating prior splits against new feature subsets.
 
 <div style="text-align: center;">
   <div style="border: 2px solid #ddd; border-radius: 8px; padding: 10px; display: inline-block; overflow: hidden;">

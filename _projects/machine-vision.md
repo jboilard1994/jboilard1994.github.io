@@ -6,7 +6,7 @@ description: Computer vision applications for industrial quality control.
 I worked on a machine vision system for detecting missing welds on steel joists in an industrial production line.
 
 ## My Role
-End-to-end ownership of the vision pipeline, from data preparation and model development to evaluation under extreme class imbalance and on-premise deployment.
+End-to-end ownership of the vision pipeline, from data preparation and model development to evaluation under extreme class imbalance,  on-premise deployment and monitoring of the ML stack.
 
 ## Mockup Demo
 Due to confidentiality constraints, this is a sanitized mockup representative of the real system and challenges.
@@ -18,7 +18,7 @@ Due to confidentiality constraints, this is a sanitized mockup representative of
 - Variable lighting and environmental noise  
 - High-speed production line  
 - Extreme class imbalance (<1% missing welds)  
-- Near-zero tolerance for false negatives  
+- False negatives can have terrible consequences  
 - Mandatory on-premise deployment
 
 ## Tech Stack
@@ -40,7 +40,14 @@ Inference runs on-premise to ensure reliability and avoid network-related disrup
 
 4) **Main control application** : Responsible for handling all remaining business logic and application-specific needs of the use case.
 
-## Cloud Deployment Pipeline
-Cloud infrastructure used for staging, but also data storage, model training, and MLOps workflows.
+## ML Monitoring stack
+Missing welds are an extremely critical defect, and ML training-to-production skew is a significant risk given the variability of the operating environment. Critical factors include... :
 
-![Cloud Pipeline](/media/machine_vision/cloud_pipeline.png)
+- lighting changes
+- camera scratches, burrs & general damage
+- Firmware updates causing capture issues
+- camera displacement caused by welders accidentally impacting the equipment
+
+These can all negatively affect model performance. We want to avoid situations where performance degradation goes unnoticed for months, but could have been fixed proactively. To mitigate this risk, we have planned for proactive monitoring workflows designed to detect these issues early.
+
+![Cloud Pipeline](/media/machine_vision/ml-monitoring.png)
