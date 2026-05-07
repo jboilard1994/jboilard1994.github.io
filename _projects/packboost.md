@@ -12,7 +12,7 @@ PackBoost is a domain-specific gradient boosting algorithm designed to handle co
   </div>
   <div>
     <small style="opacity: 0.7;">
-      Gradient boosting decision trees and aggregation of weak learners.
+      In PackBoost, one gradient boosting round is an aggregation of multiple decision trees.
     </small>
   </div>
 </div>
