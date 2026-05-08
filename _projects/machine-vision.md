@@ -3,7 +3,7 @@ title: Machine Vision – Industrial Quality Control
 description: Computer vision applications for industrial quality control.
 ---
 
-I worked on a machine vision system for detecting missing welds on steel joists in an industrial production line.
+I worked on a machine vision system for detecting missing welds on steel joists on a rolling conveyor, in a rough industrial setting.
 
 ## My Role
 End-to-end ownership of the vision pipeline, from data preparation and model development to evaluation under extreme class imbalance,  on-premise deployment and monitoring of the ML stack.
@@ -28,7 +28,7 @@ PyTorch, Python, Pandas, Docker, Kubernetes, Vertex AI
 While exact metrics cannot be disclosed, the system **outperformed manual inspection** and met reliability requirements for production use.
 
 ## On-Premise Architecture
-Inference runs on-premise to ensure reliability and avoid network-related disruptions.
+Inference runs on-premise to ensure reliability, minimize latency, and avoid network-related disruptions.
 
 ![On-Premise Deployment](/media/machine_vision/on-premise.png)
 
@@ -41,7 +41,7 @@ Inference runs on-premise to ensure reliability and avoid network-related disrup
 4) **Main control application** : Responsible for handling all remaining business logic and application-specific needs of the use case.
 
 ## ML Monitoring stack
-Missing welds are an extremely critical defect, and ML training-to-production skew is a significant risk given the variability of the operating environment. Critical factors include... :
+The absence of a weld is a extremely critical defect, and ML training-to-production skew is a significant risk given the variability of the operating environment. Critical factors include... :
 
 - lighting changes
 - camera scratches, burrs & general damage
