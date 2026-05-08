@@ -17,8 +17,9 @@ End-to-end computer vision pipeline for automated quality control in steel manuf
 
 ### [PackBoost – Custom Gradient Boosting Algorithm](https://jboilard1994.github.io/projects/packboost/)
 A domain-specific gradient boosting implementation designed for financial market predictions with constraints beyond standard libraries. Features include:
-- **Era-aware splitting** for improved robustness across market regimes
-- **Synchronized ensemble feature sampling** to enforce orthogonality of ensembled boosting round steps
 - **Massively parallel training** through round-forward sample path reuse
+- **Non-optimal feed-forward sample splits** Mitigate overfitting by defining leaf values using current-round feature sets while relying on previous-round sample splits.
+- **Era-aware splitting** for improved robustness across market regimes
 - **Multiple trees per boosting round with ensemble averaging** allows the use of deep trees while maintaining stable convergence and smoother late-stage asymptotic behavior.
+
 
