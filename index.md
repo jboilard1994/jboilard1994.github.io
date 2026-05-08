@@ -19,7 +19,7 @@ End-to-end computer vision pipeline for automated quality control in steel manuf
 A domain-specific gradient boosting implementation designed for financial market predictions with constraints beyond standard libraries. Features include:
 - **Massively parallel training** through round-forward sample path reuse
 - **Non-optimal feed-forward sample splits** Mitigate overfitting by defining leaf values using current-round feature sets while relying on previous-round sample splits.
-- **Era-aware splitting** for improved robustness across market regimes
+- **Era-aware splitting** for improved robustness across temporal regimes
 - **Multiple trees per boosting round with ensemble averaging** allows the use of deep trees while maintaining stable convergence and smoother late-stage asymptotic behavior.
 
 
